@@ -229,19 +229,24 @@ $ git clone https://github.com/xxyy/abc
 $ git clone https://github.com/xxyy/abc miPropioNombre
   ## QUINTA CLASE
   $ git ra red.pdf        (Borrar archivo de la rama)
+
   --------<><><...>---|-----------<>  (On branch master)
                     35b936f          -.gitignore
 
 $ git commit -m "C2  add .gitignore"
+
                     C1              C2
 --------<><><...>---|------------<>-|---      (On branch master)
                  35b936f           43eab06
 
 
+$ git log           (historial de cambios)
+
 --------<><><...>---|---          |(main) -----<  (req / fix)
                     |
                     |
                     |----<><><...>--- *(Config)
+
 
 
 --------<><><...>---|---             (main) -----<  (req / fix)
